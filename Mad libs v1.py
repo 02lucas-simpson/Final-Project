@@ -13,7 +13,7 @@ greeting()
 
 
 # Declared all variables
-
+"""
 adjective = input('Choose an adjective: ')
 adjective2 = input('Choose an adjective: ')
 noun = input('Choose a noun: ')
@@ -34,4 +34,20 @@ adjective3 = input('Choose an adjective: ')
 number = input('Choose a number: ')
 plural_noun4 = input('Choose a plural noun: ')
 
+"""
 
+
+
+like = -5
+while like <1 or like >3:
+    try:
+        like = float(input('Did you like the madlibs???(1 = yes 2 = No) '))
+
+    except ValueError:
+        print('1 or 2')
+
+if like == 1:
+    print('Thank you')
+
+if like == 2:
+    print('well ok then i see how it is')
