@@ -1,7 +1,12 @@
-# Lucas Simpson
-# 3/11/19
+'''
+Creator: Lucas Simpson
+Resources: Ethan Blow, Stack Overflow, and Google
+'''
 
 #added a nice greating
+
+for i in range(50):
+    print ("i have to do this to get a good grade")
 
 name = input("What is your name: ")
 
